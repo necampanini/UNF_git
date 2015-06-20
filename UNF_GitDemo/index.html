@@ -1,138 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UNF Git Demo</title>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    <!-- Bootstrap core CSS -->
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/flat.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>
-        body {
-            padding-top: 50px;
-        }
-
-        .starter-template {
-            padding: 40px 15px;
-            text-align: center;
-        }
-    </style>
-
-</head>
-
-<body>
-
-The following is the html for the navbar, 
-
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">B-baka...</a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
-    </div>
-</div>
-
-<div class="container" id="pageContainer">
-
-    <div class="panel-success">
-        <div class="starter-template">
-            <div class="container" id="catContainer">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <img src=" img/murderface3.jpg" class="img-circle img-responsive" alt="Image"
-                             style="width: 60%; height: 60%; margin: 0 auto;">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                        <blockquote class="pull-right">
-                            <p>I am Rexxar. I've seen war and hatred tear this land apart. I will not stand for it any
-                                more.</p>
-                            <small>Someone famous in
-                                <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </blockquote>
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-
-                    </div>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UNF Git Demo</title>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap core CSS -->
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Important!! I'll put comments in lots of places to help point things that might be unfamiliar, please read them and always feel free to ask questions. -->
+        <!-- I used bootstrap(a topic of its own) to stand up a presentable static webpage for the class to use. Each section will be commented to explain a little bit about it -->
+        <!-- The following is the html for the navbar, read up on bootstrap documentation, or better yet, watch the clubtreehouse videos for a very nice introduction to the topic -->
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">UNF Git</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div id="wrapper">
-            <section>
-                <ul id="gallery">
-                    <li>
-                        <a href="img/ccAlbum.jpg">
-                            <img src="img/ccAlbum.jpg" alt="">
+        <!-- This is the container for the main page content. This being the home page, it will have general information and links to the other pages -->
+        <br>
+        <div class="container" id="pageContainer">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Welcome to the UBF Git Deom</h1>
+                    <p>You will participate and hepl make this website a little prettier! Remember, there are always resources within reach to help you along.
+                    </p>
+                    <p>
+                        <i>Make use of them!</i>
+                    </p>
+                    <p>
+                        <a class="btn btn-primary btn-sm">Don't Press Me.</a>
+                    </p>
+                </div>
+            </div>
 
-                            <p>DEATH MURDER DIE DIE DIE.</p>
-                        </a>
-                    </li>
-                    <!--<li>-->
-                    <!--<a href="img/chewiebag.jpg">-->
-                    <!--<img src="img/chewiebag.jpg" alt="">-->
-                    <!--<p>Playing with blending modes in Photoshop.</p>-->
-                    <!--</a>-->
-                    <!--</li>-->
-                    <li>
-                        <a href="img/frank.jpg">
-                            <img src="img/frank.jpg" alt="">
+            <!-- this will be a list group of handy links, references, and such things! -->
 
-                            <p>Is it raining? Or is it just my panties that are soaked.</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="img/icee.jpg">
-                            <img src="img/icee.jpg" alt="">
 
-                            <p>I hope they have Icees!!!</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="img/pork.JPG">
-                            <img src="img/pork.JPG" alt="">
-
-                            <p>I love meat in my mouth.</p>
-                        </a>
-                    </li>
-                </ul>
-            </section>
+            <blockquote class="pull-left">
+                <p>How do I reach these keeeeeds?</p>
+                <small>Nick</small>
+            </blockquote>
         </div>
     </div>
-
-
-</div>
-<!-- /.container -->
-
-<!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 </body>
-
 </html>
