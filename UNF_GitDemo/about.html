@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>UNF Git Demo</title>
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-        <!-- Bootstrap core CSS -->
-        <link href="css/bootstrap.css" rel="stylesheet">
-    </head>
-    <body>
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">UNF Git</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="audio.html">Audio</a></li>
-                        <li><a href="video.html">Video</a></li>
-                        <li><a href="cheatsheet.html">Cheat Sheet</a></li>
-                        <li><a href="worklog.html">Work Log</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNF Git Demo</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">UNF Git</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="cheatsheet.html">Cheat Sheet</a></li>
+                <li><a href="worklog.html">Work Log</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+
+<div class="container" id="pageContainer">
+    <div class="well">
+        <!-- hack just to get some spacing -->
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            <div class="well well-lg">
+                <img src="http://nicenicejpg.com/600/400" alt="hah" class="img-responsive" style="margin: 0 auto;"/>
             </div>
         </div>
-        <!-- This is the container for the main page content. This being the home page, it will have general information and links to the other pages -->
-        <br>
-        <div class="container" id="pageContainer">
-            <div class="well"> <!-- hack just to get some spacing -->
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            <blockquote class="pull-right">
+                <p>If only I knew how to properly maintain versions of my code...</p>
+                <small>John Williams in
+                    <cite title="Starfish">The Illiad</cite>
+                </small>
+            </blockquote>
         </div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <div class="row well">
-                    
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quibusdam sunt fugiat, ut accusamus expedita consequatur error assumenda nam, repudiandae ipsa atque totam molestiae architecto nostrum magnam reprehenderit, vitae culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus repudiandae explicabo, dolorum, qui ipsum est debitis similique ipsam laborum corrupti autem voluptates id, cum quas, quod ab aperiam eius perspiciatis.
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <img src="http://nicenicejpg.com/250">
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img src="http://nicenicejpg.com/450">
+    </div>
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="well">
+                <h1 class="text-center">
+                    About this project.
+                    <hr />
+                </h1>
+
+                <p>
+                    The whole idea behind these code camps is to share knowledge. Yes, it can better prepare
+                    students for their upcoming senior projects, but I signed on really to "pay it forward".
+                    I value a willingness to share knowledge and experience. Thanks to those before me, I am able
+                    to say I am better off now than I was before. This applies to all aspects of my life, and not
+                    only professionally. I feel strongly about helping others, and I hope I can pass along some of
+                    my knowledge and experience (however minor it might be) to those who come after me.
+                <hr>
+                That aside, I jumped at the opportunity to do a presentation on Version Control (any by
+                extension: Git) because it's something I am constantly amazed by. I also feel I knew the basics
+                well enough to give a crash course in it. Really, there are more qualified people than I, and
+                there hundreds if not thousands of resources you can learn version control from. However, if
+                I impart some of the importance of this subject onto you students, I'd've done some measure of
+                good.
+                </p>
             </div>
         </div>
     </div>
@@ -67,4 +93,5 @@
 <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 </body>
+
 </html>
