@@ -99,12 +99,49 @@ We'll be breaking into 3-person teams.
 - press spacebar to continuing paging through the log
 - or press q to quit out
 
-- git push origin doug/feature_01
 - git push [origin] [branchname]
+- if newly created branch, have to specify upstream and new branch name
 
+- it will ask for credentials
+- github email
+- your password **THIS WILL BE EMPTY AND APPEAR TO NOT HAVE ANYTHING**
 
+- refresh github page
+- dropdown into new branch
 
+- see new branch. new files!
 
-## Something
+- walk through pull request
+- right hand side; pull requests
+- new pull request
+- 2 drop down buttons, base: and compare:
+- explain base and compare
+- able to merge!
+
+- explain green/red
+- click create pr
+
+- refersh page, should see new prs!
+- click into that pull request
+
+- discuss etc
+- able to merge? merge
+- delete
+
+- go back homepage
+- cool!
+
+- your repository is now different
+- (git reset --hard if necessary)
+
+- switch to master branch
+- git pull
+
+- new stuff in master now that wasn't there before
+- git pull
+
+- in sample file, you guys change something
+- 
+
 
 
