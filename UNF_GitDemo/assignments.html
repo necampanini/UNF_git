@@ -11,9 +11,6 @@
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
     <body>
-        <!-- Important!! I'll put comments in lots of places to help point things that might be unfamiliar, please read them and always feel free to ask questions. -->
-        <!-- I used bootstrap(a topic of its own) to stand up a presentable static webpage for the class to use. Each section will be commented to explain a little bit about it -->
-        <!-- The following is the html for the navbar You should read up on bootstrap documentation, or better yet, watch the clubtreehouse videos for a very nice introduction to the topic -->
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header">
@@ -27,9 +24,9 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="assignments.html">Assignments</a></li>
+                        <li class="active"><a href="assignments.html">Assignments</a></li>
                         <li><a href="audio.html">Audio</a></li>
                         <li><a href="video.html">Video</a></li>
                         <li><a href="cheatsheet.html">Cheat Sheet</a></li>
@@ -38,26 +35,32 @@
                 </div>
             </div>
         </div>
-        <!-- This is the container for the main page content. This being the home page, it will have general information and links to the other pages -->
+        <!-- This is the container for the main page content. -->
         <br>
         <div class="container" id="pageContainer">
-            <div class="well">
+            <div class="well"></div>
+            <!-- hack just to get some spacing, there is undoubted a better way to do this-->
+                <h1 class="text-center">Prerequisites</h1>
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+                        <ul class="list-group text-center">
+                            <li class="list-group-item">Go here: <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">secret power and adventure.</a></li>
+                            <li class="list-group-item">Have a <a href="https://github.com/">GitHub</a> account.</li>
+                            <li class="list-group-item">Write the best song in the world.</li>
+                        </ul>
+                    </div>
+                </div>
                 
-            </div>
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>Welcome to the UBF Git Deom</h1>
-                    <p>You will participate and hepl make this website a little prettier! Remember, there are always resources within reach to help you along.
-                    </p>
-                    <p>
-                        <i>Make use of them!</i>
-                    </p>
-                    <p>
-                        <a class="btn btn-primary btn-sm">Don't Press Me.</a>
-                    </p>
+                
+            
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-lg-offset-1">
+                    <div class="text-center">
+                        <h1>YOUR MISSION, IF YOU SO CHOOSE TO ACCEPT IT...</h1>
+                        <hr>
+                    </div>
                 </div>
             </div>
-            <!-- 3 rows, divided into 2 parts each. Bootstrap uses a 12 column grid layout to position things. 3 rows of 6 column sections each for each team (maybe more depending on attendance)-->
             <div class="row">
                 <!-- Team Annihilator -->
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -67,9 +70,9 @@
                         </div>
                         <div class="panel-body">
                             <ul class="list-group">
-                                <li class="list-group-item">Team Member #1</li>
-                                <li class="list-group-item">Team Member #2</li>
-                                <li class="list-group-item">Team Member #3</li>
+                                <li class="list-group-item">Spelling errors in Homepage</li>
+                                <li class="list-group-item">Remove unused button in the jumbotron in Homepage</li>
+                                <li class="list-group-item">GIT REMOVE juno.txt from repository</li>
                             </ul>
                         </div>
                     </div>
@@ -82,7 +85,7 @@
                         </div>
                         <div class="panel-body">
                             <ul class="list-group">
-                                <li class="list-group-item">Team Member #1</li>
+                                <li class="list-group-item">Nuke audio.html and audio.js</li>
                                 <li class="list-group-item">Team Member #2</li>
                                 <li class="list-group-item">Team Member #3</li>
                             </ul>
@@ -154,26 +157,13 @@
                     </div>
                 </div>
             </div>
-            <!-- END OF TEAM ROWS-->
-            <div class="row">
-                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                    
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <blockquote class="pull-right">
-                        <p>How do I reach these keeeeeds?</p>
-                    </blockquote>
-                </div>
-                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-                    
-                </div>
-            </div>
-            <!-- /.container -->
-            <!-- Bootstrap core JavaScript
-            ================================================== -->
-            <!-- Placed at the end of the document so the pages load faster -->
-            <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
         </div>
-        </body>
-    </html>
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+</body>
+</html>
