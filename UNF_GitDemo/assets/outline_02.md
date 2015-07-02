@@ -25,6 +25,3 @@
 * Handling all these versions and merging everything together manually is tedious and error prone.
 
 ## What Version Control Looks Like
-
-
-
