@@ -8,7 +8,7 @@ Sample Project for outlining and demonstrating Git version control to senior pro
 ## Team based approach
 We'll be breaking into 3-person teams.
 
-# Step-by-Step
+# Step-by-General-Step
 
 ## Step 0
 
@@ -141,6 +141,13 @@ We'll be breaking into 3-person teams.
 - git pull
 
 - in sample file, you guys change something
+- git status
+- git add [tab]
+- git commit -m "changed exxar"
+
+- git pull a change will resolve in merge conflict
+
+- merging || how resolve
 - 
 
 
