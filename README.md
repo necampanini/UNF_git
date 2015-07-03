@@ -217,41 +217,44 @@ git merge demo/your_name
 
 - Try to remember the syntax. Think about telling Git: "Git, merge [this branch name] into the one I am currently in!"
 
+```
+TODO: finish up from this
 #### GitHub Specific - Pull Requests 'PR'
-~~ - right hand side; pull requests ~~
-~~ - new pull request ~~
-~~ - 2 drop down buttons, base: and compare: ~~
-~~ - explain base and compare ~~
-~~ - able to merge! ~~
-~~  ~~
-~~ - explain green/red ~~
-~~ - click create pr ~~
-~~  ~~
-~~ - refersh page, should see new prs! ~~
-~~ - click into that pull request ~~
-~~  ~~
-~~ - discuss etc ~~
-~~ - able to merge? merge ~~
-~~ - delete ~~
-~~  ~~
-~~ - go back homepage ~~
-~~ - cool! ~~
-~~  ~~
-~~ - your repository is now different ~~
-~~ - (git reset --hard if necessary) ~~
-~~  ~~
-~~ - switch to master branch ~~
-~~ - git pull ~~
-~~  ~~
-~~ - new stuff in master now that wasn't there before ~~
-~~ - git pull ~~
-~~  ~~
-~~ - in sample file, you guys change something ~~
-~~ - git status ~~
-~~ - git add [tab] ~~
-~~ - git commit -m "changed exxar" ~~
-~~  ~~
-~~ - git pull a change will resolve in merge conflict ~~
+- right hand side; pull requests
+- new pull request
+- 2 drop down buttons, base: and compare:
+- explain base and compare
+- able to merge!
+
+- explain green/red
+- click create pr
+
+- refersh page, should see new prs!
+- click into that pull request
+
+- discuss etc
+- able to merge? merge
+- delete
+
+- go back homepage
+- cool!
+
+- your repository is now different
+- (git reset --hard if necessary)
+
+- switch to master branch
+- git pull
+
+- new stuff in master now that wasn't there before
+- git pull
+
+- in sample file, you guys change something
+- git status
+- git add [tab]
+- git commit -m "changed exxar"
+
+- git pull a change will resolve in merge conflict
+```
 
 ## Step 3
 
