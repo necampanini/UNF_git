@@ -44,6 +44,14 @@ We'll be breaking into 3-person teams.
 - type ls -la (elle ess, dash elle A)
 - look at all the things.
 
+#### Git Global Config
+
+- In Git Bash, type:
+``` 
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
+```
+
 #### Getting Started - Creating a work place
 
 - ASSUMING WINDOWS: type the following: 
@@ -51,14 +59,12 @@ We'll be breaking into 3-person teams.
 ```
 cd /c/
 ```
-
 ```
 mkdir Projects
 cd Projects
 mkdir Demo_01
 cd Demo_01
 ```
-
 
 ##### In order, you did the following actions:
 - Change to your C:\ directory. 
@@ -87,18 +93,11 @@ This should all look familiar if you have been doing your homework. Or, if you j
 
 Now, we get to pull down this project!
 
+##### WARNING: make sure you are back /c/Projects/ before continuing.
 - Navigate to: https://github.com/necampanini/UNF_git
 - On the right hand side, under where it says "HTTPS git clone URL"
 - Copy this URL. 
 - This is the actual repository you will pull down.
-
-#### Git Global Config
-
-- In Git Bash, type:
-``` 
-git config --global user.name "John Doe"
-git config --global user.email "johndoe@example.com"
-```
 
 #### Git Commands - The Cloning
 
@@ -128,9 +127,11 @@ git branch
 ```
 - This should list out the branches that this repository had at the time of cloning.
 - Now, try creating your own branch:
+#####Replace 'your_name' with your name :)
 ```
-git checkout -b some_name
+git checkout -b demo/your_name
 ```
+
 - The 'checkout -b' is a combined command of "checking out" a newly created branch.
 - There is often naming conventions for branches. They vary, so adapt early and often.
 
@@ -172,27 +173,52 @@ git commit -m "I am a commit message"
 git status
 git log
 ```
+- Harken back to Comp Structures (the best class)
+- Imagine a Directed Acyclic Graph
 
+- Each time you "commit", you tell Git to save the changes you've made. Quite literally.
+- Git works in such a way that if keeps track of deltas through out a DAG (directed acyclic graph)
+- You should see your latest commit and the commit message at the top of the output from "git status"
 
-- should see your commit! 
-- and all previous 
+#### Git Log
 
-- press spacebar to continuing paging through the log
-- or press q to quit out
+- Press spacebar to page through the output, or down arrow.
+- Press "Q" to quit out of the log.
+- There are nice GUIs to help visualize these DAGs, but for now, we're staying with the command line.
 
-- git push [origin] [branchname]
-- if newly created branch, have to specify upstream and new branch name
+#### Git Push
 
-- it will ask for credentials
-- github email
-- your password **THIS WILL BE EMPTY AND APPEAR TO NOT HAVE ANYTHING**
+- Now that we have a new branch, and new changes, we want our ORIGIN repository to have those changes.
+##### replace [branchname] with whatever branch you want to add to our remote repository. In this case it should be demo/your_name
+```
+git push --set-upstream origin [branchname]
+```
+- If this is a newly created branch (which it is), we'll have to specify upstream and the new branch name.
+- We do this with the "--set-upstream", telling git this is the branch we want to keep track of.
 
-- refresh github page
-- dropdown into new branch
+- Git will ask for credentials
+- Enter your github email/username and password
+- **In typing your password, nothing will appear, don't worry.**
 
-- see new branch. new files!
+#### GitHub
 
-- walk through pull request
+- Navigate to https://github.com/necampanini/UNF_git
+- Click on the Branch dropdown and find your newly pushed-up branch!
+- Observe new branch. Observe new files!
+
+#### Merging And Pull Requests
+
+- Back in Git Bash, if you want to merge new code/features/work into other branches, you can.
+- With the changes you've made to your demo branch, let's merge those changes in to the branch "merge/into/me"
+
+```
+git checkout merge/into/me
+git merge demo/your_name
+```
+
+- Try to remember the syntax. Think about telling Git: "Git, merge [this branch name] into the one I am currently in!"
+
+#### GitHub Specific - Pull Requests 'PR'
 - right hand side; pull requests
 - new pull request
 - 2 drop down buttons, base: and compare:
@@ -235,7 +261,7 @@ git log
 - 
 ## Step 4
 
-- You are now Linus Torvalds, creator of Git, and Linux. 
+- You are now Linus Torvalds, creator of Git, and Linux.
 
 
 
