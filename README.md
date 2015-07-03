@@ -29,31 +29,40 @@ We'll be breaking into 3-person teams.
 	`
 
 * Assuming windows:
-- Leave default components 
-- Ensure Git Bash Here is checked
-- Use Git from Git Bash only
+- Make sure these options are check.
+* Ensure Git Bash Here is checked
+* On next screen Use Git from Git Bash only
 - Windows style - unix style line endings
 - windows key - Git .exe
 
 
 ## Step 2
 
-#### Getting Started - First-Time Git Setup
+#### Getting Started - Discovering the Command Line
 
 - open Git Bash.exe
 - this opens up a command line
 - should default be USER@PC_NAME
 - type ls -la (elle ess, dash elle A)
+- look at all the things.
+
+#### Getting Started - Creating a work place
+
 - mkdir gitDemo -- make directory
 - cd gitDemo -- change directory
-- cd ..
-- cd gitDemo
+- ASSUMING WINDOWS: type the following: 
+
+```
+cd /c/
+```
+
+```
+mkdir Projects
+cd Project
+```
+
 - git init
-- ls -la
-- cd .. back up
-- cd /c/
-- mkdir Projects
-- cd Projects
+- ls -la to see the new hidden files git "init created"
 - https://github.com/necampanini/UNF_git
 
 - right hand side, under HTTPS git clone URL
