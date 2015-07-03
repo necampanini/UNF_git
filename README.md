@@ -81,7 +81,7 @@ ls -la
 - ls -la is a unix command that works in this program (Git Bash). You list the current working directory's contents
 - with the "-la" options, you list contents in a list format and include ALL files, even hidden files and directories.
 
-### Git Commands - The Connecting
+#### Git Commands - The Connecting
 
 This should all look familiar if you have been doing your homework. Or, if you jumped into this first, you will get plenty of reinforcement later on.
 
@@ -94,11 +94,15 @@ Now, we get to pull down this project!
 
 #### Git Global Config
 
-- 
+- In Git Bash, type:
+``` 
+git config --global user.name "John Doe"
+git config --global user.email "johndoe@example.com"
+```
 
 #### Git Commands - The Cloning
 
-- In gitbash, type: 
+- In Git Bash, type: 
 ```
 git clone https://github.com/necampanini/UNF_git.git
 ```
@@ -135,7 +139,7 @@ git checkout -b some_name
 - Type "git branch" to list out the current branches. 
 - One will have a asterisk next to it (and possibly be colored in).
 - This indicates the branch you are currently working in.
-- 
+ 
 - Making sure you are in this test branch. Create a new text file named "the_demo" anywhere inside our repo. Save it.
 - Type git status
  
@@ -165,19 +169,10 @@ git status
 ```
 git add the_demo
 git commit -m "I am a commit message"
+git status
+git log
 ```
 
-
-- git commit -m "i am rexxar, lord of terror"
-
-- inside repository
-- git config --global user.name "John Doe"
-- git config --global user.email "johndoe@example.com"
-
-- explain first parts, branch name and GUID
-
-- git status
-- git log
 
 - should see your commit! 
 - and all previous 
@@ -233,8 +228,14 @@ git commit -m "I am a commit message"
 
 - git pull a change will resolve in merge conflict
 
-- merging || how resolve
+## Step 3
+
+- ???
+- ???
 - 
+## Step 4
+
+- You are now Linus Torvalds, creator of Git, and Linux. 
 
 
 
