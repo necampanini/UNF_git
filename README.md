@@ -5,8 +5,7 @@ Sample Project for outlining and demonstrating Git version control to senior pro
 - The purpose of this project is to have something tangible for students to interact with.
 - Ideally the feedback is immediate and students leave with experience they did not have before.
 
-## Team based approach
-We'll be breaking into 3-person teams.
+## The branch 'develop' is what I will be working from in creating this, so watch for the README here on this branch.
 
 # Step-by-General-Step
 
