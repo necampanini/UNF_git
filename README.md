@@ -12,9 +12,9 @@ Sample Project for outlining and demonstrating Git version control to senior pro
 ## Step 0
 
 - https://github.com/ Make an account, email, password, username
-- free plan, unless you want to start paying right out of the gate. 
+- free plan, unless you want to start paying right out of the gate.
 
-## Step 1 
+## Step 1
 
 #### Install Git on your OS of choice
 - Windows: http://git-scm.com/download/win
@@ -46,14 +46,14 @@ Sample Project for outlining and demonstrating Git version control to senior pro
 #### Git Global Config
 
 - In Git Bash, type:
-``` 
+```
 git config --global user.name "John Doe"
 git config --global user.email "johndoe@example.com"
 ```
 
 #### Getting Started - Creating a work place
 
-- ASSUMING WINDOWS: type the following: 
+- ASSUMING WINDOWS: type the following:
 
 ```
 cd /c/
@@ -66,11 +66,11 @@ cd Demo_01
 ```
 
 ##### In order, you did the following actions:
-- Change to your C:\ directory. 
+- Change to your C:\ directory.
 - Then, you made a new directory(s) within C:\ named Projects.
 - You then Changed Directory, into said new directory(s)
 
-#### Git Commands 
+#### Git Commands
 
 - Make sure you are in the Projects/Demo_01 directory.
 - After each command, read what is displayed. Carefully.
@@ -95,12 +95,12 @@ Now, we get to pull down this project!
 ##### WARNING: make sure you are back /c/Projects/ before continuing.
 - Navigate to: https://github.com/necampanini/UNF_git
 - On the right hand side, under where it says "HTTPS git clone URL"
-- Copy this URL. 
+- Copy this URL.
 - This is the actual repository you will pull down.
 
 #### Git Commands - The Cloning
 
-- In Git Bash, type: 
+- In Git Bash, type:
 ```
 git clone https://github.com/necampanini/UNF_git.git
 ```
@@ -136,13 +136,13 @@ git checkout -b demo/your_name
 
 #### Tracking Files - Disappearing Act
 
-- Type "git branch" to list out the current branches. 
+- Type "git branch" to list out the current branches.
 - One will have a asterisk next to it (and possibly be colored in).
 - This indicates the branch you are currently working in.
- 
+
 - Making sure you are in this test branch. Create a new text file named "the_demo" anywhere inside our repo. Save it.
 - Type git status
- 
+
 - New text should appear. Git will notify you of new files it detects but isn't currently "tracking"
 - New files will appear as "Untracked"
 - Existing files that have had changes applied to them since last commit, appear as "Modified"
@@ -162,7 +162,7 @@ git status
 - git status
 - You should see that on top of adding a file to be tracked, git tracks changes in that file
 - However, those new changes are not STAGED for a COMMIT.
- 
+
 #### Git Commit - There's no turning back now (yes there is)
 
 - Type:
@@ -260,10 +260,7 @@ TODO: finish up from this
 
 - ???
 - ???
-- 
+-
 ## Step 4
 
 - You are now Linus Torvalds, creator of Git, and Linux.
-
-
-
