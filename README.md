@@ -260,7 +260,7 @@ TODO: finish up from this
 
 - ???
 - ???
-- 
+
 ## Step 4
 
 - You are now Linus Torvalds, creator of Git, and Linux.
