@@ -25,3 +25,6 @@
 * Handling all these versions and merging everything together manually is tedious and error prone.
 
 ## What Version Control Looks Like
+* Just looking at a repository on github, can be at first confusing
+* In essence, you are only seeing what the repository is keeping track of
+* If you were standing in a corn silo, you would see the corn (or whatever), not the container itself.
