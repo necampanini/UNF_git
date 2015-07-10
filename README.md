@@ -205,53 +205,11 @@ git push --set-upstream origin [branchname]
 - Click on the Branch dropdown and find your newly pushed-up branch!
 - Observe new branch. Observe new files!
 
-#### Merging And Pull Requests
-
-- Back in Git Bash, if you want to merge new code/features/work into other branches, you can.
-- With the changes you've made to your demo branch, let's merge those changes in to the branch "merge/into/me"
-
-```
-git checkout merge/into/me
-git merge demo/your_name
-```
-
-- Try to remember the syntax. Think about telling Git: "Git, merge [this branch name] into the one I am currently in!"
-
-```
-TODO: finish up from this
-#### GitHub Specific - Pull Requests 'PR'
-~~right hand side; pull requests~~
-~~new pull request~~
-~~2 drop down buttons, base: and compare:~~
-~~explain base and compare~~
-~~able to merge!~~
-~~explain green/red~~
-~~click create pr~~
-~~refersh page, should see new prs!~~
-~~click into that pull request~~
-~~discuss etc~~
-~~able to merge? merge~~
-~~delete~~
-~~go back homepage~~
-~~cool!~~
-~~your repository is now different~~
-~~(git reset --hard if necessary)~~
-~~switch to master branch~~
-~~git pull~~
-~~new stuff in master now that wasn't there before~~
-~~git pull~~
-~~in sample file, you guys change something~~
-~~git status~~
-~~git add [tab]~~
-~~git commit -m "changed exxar"~~
-~~git pull a change will resolve in merge conflict~~
-```
-
 ## Step 3
 
 - ???
 - ???
--
+
 ## Step 4
 
 - You are now Linus Torvalds, creator of Git, and Linux.
