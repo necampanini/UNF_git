@@ -176,7 +176,8 @@ git log
 - Imagine a Directed Acyclic Graph
 
 - Each time you "commit", you tell Git to save the changes you've made. Quite literally.
-- Git works in such a way that if keeps track of deltas through out a DAG (directed acyclic graph)
+- ~~Git works in such a way that if keeps track of deltas through out a DAG (directed acyclic graph)~~
+- Git takes snapshots, adding nodes to a DAG(directed acyclic graph)
 - You should see your latest commit and the commit message at the top of the output from "git status"
 
 #### Git Log
@@ -187,13 +188,14 @@ git log
 
 #### Git Push
 
-- Now that we have a new branch, and new changes, we want our ORIGIN repository to have those changes.
-##### replace [branchname] with whatever branch you want to add to our remote repository. In this case it should be demo/your_name
+- ~~Now that we have a new branch, and new changes, we want our ORIGIN repository to have those changes.
+##### replace [branchname] with whatever branch you want to add to our remote repository. In this case it should be demo/your_name~~
 ```
 git push --set-upstream origin [branchname]
 ```
-- If this is a newly created branch (which it is), we'll have to specify upstream and the new branch name.
-- We do this with the "--set-upstream", telling git this is the branch we want to keep track of.
+- ~~If this is a newly created branch (which it is), we'll have to specify upstream and the new branch name.~~
+- ~~We do this with the "--set-upstream", telling git this is the branch we want to keep track of.~~
+- We want the work you'll be doing on to be on your designated team branch.
 
 - Git will ask for credentials
 - Enter your github email/username and password
@@ -201,66 +203,15 @@ git push --set-upstream origin [branchname]
 
 #### GitHub
 
-- Navigate to https://github.com/necampanini/UNF_git
-- Click on the Branch dropdown and find your newly pushed-up branch!
-- Observe new branch. Observe new files!
-
-#### Merging And Pull Requests
-
-- Back in Git Bash, if you want to merge new code/features/work into other branches, you can.
-- With the changes you've made to your demo branch, let's merge those changes in to the branch "merge/into/me"
-
-```
-git checkout merge/into/me
-git merge demo/your_name
-```
-
-- Try to remember the syntax. Think about telling Git: "Git, merge [this branch name] into the one I am currently in!"
-
-```
-TODO: finish up from this
-#### GitHub Specific - Pull Requests 'PR'
-- right hand side; pull requests
-- new pull request
-- 2 drop down buttons, base: and compare:
-- explain base and compare
-- able to merge!
-
-- explain green/red
-- click create pr
-
-- refersh page, should see new prs!
-- click into that pull request
-
-- discuss etc
-- able to merge? merge
-- delete
-
-- go back homepage
-- cool!
-
-- your repository is now different
-- (git reset --hard if necessary)
-
-- switch to master branch
-- git pull
-
-- new stuff in master now that wasn't there before
-- git pull
-
-- in sample file, you guys change something
-- git status
-- git add [tab]
-- git commit -m "changed exxar"
-
-- git pull a change will resolve in merge conflict
-```
+- ~~Navigate to https://github.com/necampanini/UNF_git~~
+- ~~Click on the Branch dropdown and find your newly pushed-up branch!~~
+- ~~Observe new branch. Observe new files!~~
 
 ## Step 3
 
 - ???
 - ???
--
+
 ## Step 4
 
 - You are now Linus Torvalds, creator of Git, and Linux.

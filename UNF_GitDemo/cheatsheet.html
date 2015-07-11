@@ -7,7 +7,6 @@
         <title>UNF Git Demo</title>
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
         <script language="javascript" type="text/javascript" src="javascript/pageSpecific/cheatsheet.js"></script>
-        <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
     </head>
@@ -32,16 +31,109 @@
                         <li><a href="video.html"><i class="fa fa-video-camera"></i>&nbsp; Video</a></li>
                         <li class="active"><a href="cheatsheet.html"><i class="fa fa-user-secret"></i>&nbsp; Cheat Sheet</a></li>
                         <li><a href="references.html"><i class="fa fa-newspaper-o"></i>&nbsp; References</a></li>
+                        <li><a href="pictures.html"><i class="fa fa-heart"></i>&nbsp;Pictures</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-        <!-- This is the container for the main page content. -->
+        <!--The princess I mean file you are looking for is in another directory -->
         <br>
         <div class="container" id="pageContainer">
             <br>
             <hr>
-
+            <div class="row">
+                <!-- Basic Snapshotting -->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Basic Snapshotting</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">git status</li>
+                                <li class="list-group-item">git add</li>
+                                <li class="list-group-item">git diff</li>
+                                <li class="list-group-item">git commit</li>
+                                <li class="list-group-item">git reset</li>
+                                <li class="list-group-item">git rm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Branching and Merging-->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Branching and Merging</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">git branch</li>
+                                <li class="list-group-item">git checkout</li>
+                                <li class="list-group-item">git merge/git mergetool</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Sharing/Updating Projects-->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Sharing and Updating Projects</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">git fetch</li>
+                                <li class="list-group-item">git pull</li>
+                                <li class="list-group-item">git push</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Commands -->
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Inspection and Comparision</h3>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">git log</li>
+                                <li class="list-group-item">git diff</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="well well-sm">
+                        Appending this to end of your .git/config file will let you use Visual Studio's merge tool.
+                    </div>
+                    <div class="well well-sm">
+                        <pre>
+[diff]
+    tool = vsdiffmerge
+[difftool]
+    prompt = true
+[difftool "vsdiffmerge"]
+    cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
+    keepbackup = false
+    trustexistcode = true
+[merge]
+    tool = vsdiffmerge
+[mergetool]
+    prompt = true
+[mergetool "vsdiffmerge"]
+    cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\IDE\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
+    keepbackup = false
+    trustexistcode = true
+                        </pre>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <img src="images/git_cheat_sheet.png" id="honk" class="img-responsive" alt="Cheat Sheet">
@@ -49,11 +141,5 @@
             </div>
         </div>
     </div>
-    <!-- /.container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!--     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 </body>
 </html>

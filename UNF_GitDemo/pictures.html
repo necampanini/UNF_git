@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNF Git Demo</title>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <script language="javascript" type="text/javascript" src="javascript/pageSpecific/cheatsheet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+</head>
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+      margin: auto;
+  }
+  </style>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">UNF Git</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
+                    <li><a href="about.html"><i class="fa fa-book fa-fw"></i>&nbsp;About</a></li>
+                    <li><a href="assignments.html"><i class="fa fa-pencil fa-fw"></i>&nbsp;Assignments</a></li>
+                    <li><a href="audio.html">Audio</a></li>
+                    <li><a href="video.html"><i class="fa fa-video-camera"></i>&nbsp; Video</a></li>
+                    <li><a href="cheatsheet.html"><i class="fa fa-user-secret"></i>&nbsp; Cheat Sheet</a></li>
+                    <li><a href="references.html"><i class="fa fa-newspaper-o"></i>&nbsp; References</a></li>
+                    <li class="active"><a href="pictures.html"><i class="fa fa-heart"></i>&nbsp;Pictures</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="pageContainer">
+        <br>
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                <!-- #1 - fix the srx so it points to the right file path -->
+                    <img src="mad_max_01.jpg" alt="Chania" width="460" height="345">
+                </div>
+
+                <div class="item">
+                <!-- #2 - fix the srx so it points to the right file path -->
+                    <img src="images/mad_02.jpg" alt="Chania" width="460" height="345">
+                </div>
+
+                <div class="item">
+                <!-- #3 - fix the srx so it points to the right file path -->
+                    <img src="images/mad_max_03.png" alt="Flower" width="460" height="345">
+                </div>
+
+                <div class="item">
+                <!-- #4 - fix the srx so it points to the right file path -->
+                    <img src="images/annihilator_01" alt="Flower" width="460" height="345">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="fa fa-arrow-circle-left glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="fa fa-arrow-circle-right glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
