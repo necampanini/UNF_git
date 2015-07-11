@@ -176,7 +176,8 @@ git log
 - Imagine a Directed Acyclic Graph
 
 - Each time you "commit", you tell Git to save the changes you've made. Quite literally.
-- Git works in such a way that if keeps track of deltas through out a DAG (directed acyclic graph)
+- ~~Git works in such a way that if keeps track of deltas through out a DAG (directed acyclic graph)~~
+- Git takes snapshots, adding nodes to a DAG(directed acyclic graph)
 - You should see your latest commit and the commit message at the top of the output from "git status"
 
 #### Git Log
@@ -187,13 +188,14 @@ git log
 
 #### Git Push
 
-- Now that we have a new branch, and new changes, we want our ORIGIN repository to have those changes.
-##### replace [branchname] with whatever branch you want to add to our remote repository. In this case it should be demo/your_name
+- ~~Now that we have a new branch, and new changes, we want our ORIGIN repository to have those changes.
+##### replace [branchname] with whatever branch you want to add to our remote repository. In this case it should be demo/your_name~~
 ```
 git push --set-upstream origin [branchname]
 ```
-- If this is a newly created branch (which it is), we'll have to specify upstream and the new branch name.
-- We do this with the "--set-upstream", telling git this is the branch we want to keep track of.
+- ~~If this is a newly created branch (which it is), we'll have to specify upstream and the new branch name.~~
+- ~~We do this with the "--set-upstream", telling git this is the branch we want to keep track of.~~
+- We want the work you'll be doing on to be on your designated team branch.
 
 - Git will ask for credentials
 - Enter your github email/username and password
@@ -201,9 +203,9 @@ git push --set-upstream origin [branchname]
 
 #### GitHub
 
-- Navigate to https://github.com/necampanini/UNF_git
-- Click on the Branch dropdown and find your newly pushed-up branch!
-- Observe new branch. Observe new files!
+- ~~Navigate to https://github.com/necampanini/UNF_git~~
+- ~~Click on the Branch dropdown and find your newly pushed-up branch!~~
+- ~~Observe new branch. Observe new files!~~
 
 ## Step 3
 
